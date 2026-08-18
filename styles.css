@@ -250,3 +250,25 @@ body.visual-palette-10 .cta--vk { background: linear-gradient(135deg,oklch(.41 .
   body.visual-layout-5 .section:nth-of-type(even) h2 { margin-inline-start: 0; text-align: start; }
 }
 @media(max-width:620px) { body.visual-layout-4 .feature-grid { grid-template-columns: 1fr; } }
+
+
+/* SiteMaster mobile safety v1 */
+@media(max-width:620px){
+  html,body{max-width:100%;overflow-x:hidden}
+  .site-header,.hero,.section,.section--tint,.section--dark,.section--comparison,.final,footer{width:100%;max-width:100%;margin-inline:0;transform:none}
+  .site-header{border-radius:0;padding-inline:12px}
+  .hero{grid-template-columns:minmax(0,1fr)!important;gap:28px;min-height:auto;padding:52px 24px!important}
+  .hero__copy{min-width:0;padding-inline:0!important}
+  .hero__visual{order:initial;min-width:0;max-width:100%;margin-inline:auto;transform:none!important}
+  .hero h1{max-width:100%!important;font-size:clamp(38px,12vw,52px)!important;overflow-wrap:anywhere}
+  .lead,.section__intro{max-width:100%;font-size:17px}
+  .section,.section--tint,.section--dark,.section--comparison{padding:56px 24px!important;border-radius:0}
+  .feature-grid,.steps,.split,.platform-grid,.faq,.final{grid-template-columns:minmax(0,1fr)!important}
+  .feature-grid,.platform-grid{display:grid;overflow:visible}
+  .feature-grid article,.platform-grid article{min-width:0}
+  .steps li{margin-inline:0!important}
+  .section h2,.final h2{max-width:100%;font-size:clamp(31px,9vw,42px);overflow-wrap:anywhere}
+  .final{padding:36px 24px!important;text-align:start}
+  .final .cta-row{grid-column:auto}
+  img{max-width:100%;height:auto}
+}
