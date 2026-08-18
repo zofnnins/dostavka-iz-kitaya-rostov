@@ -252,6 +252,7 @@ body.visual-palette-10 .cta--vk { background: linear-gradient(135deg,oklch(.41 .
 @media(max-width:620px) { body.visual-layout-4 .feature-grid { grid-template-columns: 1fr; } }
 
 
+
 /* SiteMaster mobile safety v1 */
 @media(max-width:620px){
   html,body{max-width:100%;overflow-x:hidden}
