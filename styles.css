@@ -253,6 +253,7 @@ body.visual-palette-10 .cta--vk { background: linear-gradient(135deg,oklch(.41 .
 
 
 
+
 /* SiteMaster mobile safety v1 */
 @media(max-width:620px){
   html,body{max-width:100%;overflow-x:hidden}
